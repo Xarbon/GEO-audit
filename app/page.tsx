@@ -411,6 +411,12 @@ function CustomSelect({ value, onChange }: { value: string; onChange: (v: string
           gap: 28,
           minWidth: 140,
           justifyContent: 'space-between',
+          outline: 'none',
+          boxShadow: 'none',
+          WebkitAppearance: 'none',
+          MozAppearance: 'none',
+          appearance: 'none',
+          fontFamily: 'inherit',
         }}
       >
         {selected?.label}
